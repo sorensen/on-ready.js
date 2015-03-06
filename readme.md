@@ -4,9 +4,9 @@ on-ready
 Wait for a list of readyable objects to be ready. Objects used must have two 
 qualifications:
 
-1) has an `on` method
-2) emits a `ready` event
-3) has or can have a `ready` boolean flag to note if ready
+1. has an `on` method
+2. emits a `ready` event
+3. has or can have a `ready` boolean flag to note if ready
 
 
 Install
