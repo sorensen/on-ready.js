@@ -1,0 +1,25 @@
+{
+  "name": "on-ready"
+, "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)"
+, "version": "0.0.3"
+, "license": "MIT"
+, "keywords": [
+    "ready", "events"
+  ]
+, "description": "Ready event helper"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/sorensen/on-ready.js.git"
+  }
+, "engines": {
+    "node": "0.x"
+  }
+, "main": "index.js"
+, "scripts": {
+    "test": "npm run hint && ./node_modules/mocha/bin/mocha -R spec test.js"
+  , "hint": "jshint index.js *.json"
+  }
+, "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
