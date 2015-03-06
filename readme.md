@@ -33,10 +33,18 @@ var redis = require('redis')
 
 onReady([client1, client2], function(err) {
   // ...
+
+  client1.ready // true
+  client2.ready // true
 })
 
 // can call using arguments
 onReady(client1, client2, function() { 
+  // ...
+})
+
+// repeated calls still work fine
+onReady([client1], [client2], function() { 
   // ...
 })
 ```
