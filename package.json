@@ -1,7 +1,7 @@
 {
   "name": "on-ready"
 , "author": "Beau Sorensen <mail@beausorensen.com> (http://github.com/sorensen)"
-, "version": "0.0.1"
+, "version": "0.1.0"
 , "license": "MIT"
 , "keywords": [
     "ready", "events"
@@ -20,6 +20,7 @@
   , "hint": "jshint index.js *.json"
   }
 , "devDependencies": {
+    "jshint": "2.9.1",
     "mocha": "^2.1.0"
   }
 }
